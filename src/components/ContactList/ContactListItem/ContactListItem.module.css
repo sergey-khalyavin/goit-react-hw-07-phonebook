@@ -1,0 +1,45 @@
+.enter {
+  transform: translateX(-100%);
+}
+
+.enterActive {
+  transform: translateX(0);
+  transition: translateX 250ms linear;
+}
+
+.exit {
+  transform: translateX(0);
+}
+
+.exitActive {
+  transform: translateX(-100%);
+  transition: translateX 250ms linear;
+}
+
+.item {
+  display: flex;
+  min-width: 400px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.section__btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #f88a8a;
+  border-color: transparent;
+  color: #0a4579;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.list {
+  margin-left: 10px;
+}
