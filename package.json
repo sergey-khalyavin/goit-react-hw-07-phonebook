@@ -27,7 +27,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "netlify deploy -p",
-    "server": "json-server -p 5555 -w db.json"
+    "server": "json-server -p 4040 -w db.json"
   },
   "eslintConfig": {
     "extends": [
